@@ -1,0 +1,60 @@
+.container {
+	max-width: 600px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+h1 {
+	text-align: center;
+	color: #f2f2f2;
+}
+
+form {
+	display: flex;
+	margin-bottom: 20px;
+}
+
+input[type="text"] {
+	flex: 1;
+	padding: 10px;
+	border: 2px solid #ccc;
+	border-right: none;
+}
+
+button {
+	padding: 10px;
+	background-color: red;
+	color: white;
+	border: none;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: blue;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+li {
+	font-size: large;
+	font-style: Arial;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 10px;
+	margin-bottom: 10px;
+	background-color: #f2f2f2;
+	border: 1px solid #ccc;
+}
+
+li button {
+	background-color: blue;
+}
+
+li button:hover {
+	background-color: red;
+}
